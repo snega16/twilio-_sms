@@ -6,7 +6,7 @@ auth_token='your token'
 client=Client(account_sid,auth_token)
 message=client.messages\
               .create(
-                   body="Whoa you recieved my message",
+                   body="message to be delivered",
                    from_= 'number',
                    to='number'
             )
